@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    text-align: center;
+    color: #FEFAE0;
+    background: #F3FFE1;
+    font-family: "Lexend", sans-serif;
+}
+
+img {
+    width: 300px;
+}
+
+#header {
+    background-image: url("images/ramnicu-valcea.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-title {
+    font-size: 2.0em;
+    font-weight: bold;
+    background-color: #BC6C25;
+    border: none;
+    border-radius:8px;
+    padding: 0.3em 0.8em;
+    margin-top: 6.0em;
+    margin-bottom: 0.2em;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+}
+
+#header-subtitle {
+    width: 450px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #DDA15E;
+    border: none;
+    border-radius:8px;
+    padding: 0.2em 0em;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.7);
+}
+
+#activities{
+    margin-top:-25px;
+    margin-bottom: 50px;
+    background-color: #FEFAE0;
+    color:#283618;
+    font-size: 1.4em;
+    padding: 0.8em;
+}
+#activities-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.activity-container {
+    padding-top:20px;
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+    gap: 10px;
+}
+.activity-container img{
+    border-radius:50%;
+    object-fit: cover;
+    width:200px;
+    height:200px;
+
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+}
+.activity-container img:hover {
+    transform: scale(1.18);
+    box-shadow: 0 8px 22px #283618;
+    z-index: 2;
+}
+
+
+.activty-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #283618;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.activity-description {
+    font-size: 1em;
+    max-width: 350px;
+    color: #606C38;
+    margin-top: 5px;
+}
+
+#guide {
+    background: #606C38;
+    border-radius: 18px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 30px;
+    padding: 40px;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+    border: 6px solid #283618;
+    border-bottom: 6px solid #BC6C25;
+    box-shadow: 0 0px 6px rgba(0,0,0,0.3); 
+}
+#guide img {
+    border-radius: 12px;
+    border: 2px solid #BC6C25;
+}
+#guide-description {
+    font-size: 1.2;
+    font-weight: bold;
+    color: #FEFAE0;
+    text-align: center;
+}
+#guide-description h4{
+    font-size: 1.4em;
+}
